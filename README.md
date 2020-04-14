@@ -11,4 +11,4 @@
 # Future Ideas Include
 
 * For now this is just a simple GUI with no online connection but it can be implemented at will.
-* Implement an database management system to save all current sessions and ability to have many users.
+* Implement a database management system to save all current sessions and ability to have many users.
