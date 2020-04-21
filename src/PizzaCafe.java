@@ -285,13 +285,21 @@ rate=200;// TODO add your handling code here:
 quan=Integer.parseInt(jTextField2.getText()); 
 
 if(jCheckBox1.isSelected())
-    top=top+20;
+    top=20;
 if(jCheckBox2.isSelected())
-    top=top+20;
+    top=20;
 if(jCheckBox3.isSelected())
-    top=top+20;
+    top=20;
 if(jCheckBox1.isSelected()==false && jCheckBox2.isSelected()==false && jCheckBox3.isSelected()==false)
     top=0;
+if(jCheckBox1.isSelected() && jCheckBox2.isSelected())
+    top=40;
+if(jCheckBox2.isSelected() && jCheckBox3.isSelected())
+    top=40;
+if(jCheckBox1.isSelected() && jCheckBox3.isSelected())
+    top=40;
+if(jCheckBox1.isSelected() && jCheckBox2.isSelected() && jCheckBox3.isSelected())
+    top=60;        
 
 jTextField4.setText(""+top);
 int amt=((quan*rate)+top);
