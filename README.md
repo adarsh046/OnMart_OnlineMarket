@@ -3,7 +3,7 @@
 * An online market system developed with Java using Netbeans IDE.
 * It is made for showing a demo on puchasing goods online like footwears, movie tickets and ordering food online.
 
-# What I Learned
+# What I Learnt
 
 * Developed a user interface within the Java GUI Application using NetBeans IDE components such as TextBox, Label, Buttons, Table,        MessageBox, etc.
 * Parsing between multiple form application.
